@@ -30,7 +30,7 @@ public class Membership {
     //Membership
     // 오염이 되면 안되는 클래스, 고객 정보, 핵심 도메인
     public static Membership generateMember(MembershipId membershipId, MembershipName membershipName, MembershipEmail membershipEmail, MembershipAddress membershipAddress, MembershipIsValid membershipIsValid,
-             IsCorp isCorp) {
+                                            IsCorp isCorp) {
         return new Membership(
                 membershipId.membershipId,
                 membershipName.nameValue,
