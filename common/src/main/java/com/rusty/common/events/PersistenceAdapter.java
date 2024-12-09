@@ -1,4 +1,4 @@
-package common;
+package com.rusty.common.events;
 
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.stereotype.Component;
