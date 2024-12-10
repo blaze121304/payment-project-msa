@@ -1,12 +1,13 @@
 package com.rusty.membership.application.port.in;
 
 
-import import com.rusty.common.events.SelfValidating;
+import com.rusty.common.events.SelfValidating;
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.validation.constraints.NotNull;
+
 
 @Builder
 @Data

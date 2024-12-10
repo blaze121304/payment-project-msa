@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-class MembershipJpaEntity {
+class MembershipJpaEntity {		//jpa 클래스
 
 	@Id
 	@GeneratedValue
